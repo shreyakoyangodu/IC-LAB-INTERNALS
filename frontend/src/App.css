@@ -1,38 +1,88 @@
+/* App Styles */
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand .logo {
+  height: 40px;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  margin-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+/* Home Styles */
+.home {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.home h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Destination Styles */
+.destination {
+  padding: 40px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.destination h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* About Us Styles */
+.about-us {
+  padding: 40px 0;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-us h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.accordion .card {
+  border: none;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.accordion .card-header {
+  background-color: #f8f8f8;
+  border: none;
+  padding: 10px;
+}
+
+.accordion .card-body {
+  border-top: 1px solid #ddd;
+  padding: 10px;
 }
